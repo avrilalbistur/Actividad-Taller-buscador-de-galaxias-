@@ -1,0 +1,26 @@
+main {
+  min-height: calc(100vh - 160px);
+}
+
+  
+#contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+  justify-content: space-around; 
+}
+.card {
+  height: 400px;
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex-grow: 1; /* Para que esta sección crezca ocupando todo el espacio disponible */
+  overflow-y: auto; /* Habilitar scroll vertical */
+  max-height: 150px; /* Ajusta el tamaño máximo del área del texto */
+}
+.image{
+  height: 200px;
+}
